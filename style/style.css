@@ -1,0 +1,35 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+#main {
+    width: 20rem;
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#user{
+    color: rgb(52, 24, 153);
+}
+#win{
+    color: rgb(207, 13, 13);
+}
+
+#win:hover{
+    color: rgb(28, 150, 150);
+}
+.selection {
+    display: flex;
+    gap: 50;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+.btn-selection {
+    background-color: rgb(52, 24, 153);
+    padding: 7px;
+    border-radius: 3px;
+    color: #fff;
+}
